@@ -9,7 +9,7 @@ continutul unor fisiere text si de a organiza informatiile in
 functie de prima litera a cuvintelor, dar si de frecventa
 cuvintelor in fisiere.
 
-   Map
+Map
 - Mapperii sunt thread-uri paralele care citesc fisierele de
 intrare sincronizat, folosind un mutex pentru a prelua
 urmatorul fisier disponibil. Fiecare mapper proceseaza
@@ -18,7 +18,7 @@ asociind fiecarui cuvant o lista de ID-uri ale fisierelor
 in care apare. Rezultatele fiecarui mapper sunt stocate
 in structuri separate, urmand sa fie accesibile reducerilor.
 
-    Reduce
+Reduce
 - Reducerii sunt thread-uri paralele care proceseaza
 datele procesate de mapperi pe baza literelor alfabetului.
 Acestia preiau fiecare litera pe rand dintr-o coada alfabetica
