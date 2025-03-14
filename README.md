@@ -9,7 +9,7 @@ continutul unor fisiere text si de a organiza informatiile in
 functie de prima litera a cuvintelor, dar si de frecventa
 cuvintelor in fisiere.
 
-    Map
+   Map
 - Mapperii sunt thread-uri paralele care citesc fisierele de
 intrare sincronizat, folosind un mutex pentru a prelua
 urmatorul fisier disponibil. Fiecare mapper proceseaza
